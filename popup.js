@@ -46,7 +46,7 @@ document.getElementById("bgcbutton").addEventListener("click",  (event) => {
 });
 
 document.getElementById("sourceCode").addEventListener('click',function (){
-    window.open('http://github.com');
+    window.open('https://github.com/achamsanjeeva/ExpandCollapse');
 })
 
 function  changeBackGroundColor(){

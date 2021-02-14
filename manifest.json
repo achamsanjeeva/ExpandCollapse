@@ -1,8 +1,9 @@
 {
   "name": "Code Expand & Collapse",
-  "description": "Build an Extension!",
-  "homepage_url": "https://github.com/noam3127/github-code-folding",
+  "description": "Expand & Collapse blocks of code hosted in GitHub ",
+  "homepage_url": "https://github.com/achamsanjeeva/ExpandCollapse",
   "version": "1.0",
+  "author": "Acham Sanjeeva Kumar",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js"],
@@ -27,7 +28,6 @@
   "content_scripts": [
     {
       "matches": ["*://*.com/*"],
-
       "run_at": "document_end",
       "css": [
         "style.css"
