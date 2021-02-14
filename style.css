@@ -1,0 +1,14 @@
+
+.backGroundColor {
+    background: lightgray;
+}
+.noMargin{
+    margin-top: 0px !important;margin-bottom: 0px !important;
+
+}
+
+.backgroundHover:hover
+{
+
+    transform: scale(1.3);
+}
