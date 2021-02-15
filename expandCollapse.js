@@ -13,14 +13,19 @@ function expandCollapse() {
     let _g_includes_array = [];
 
     function process() {
+
         let dataElement;
         _g_codeBlock = [];
         dataArray = [];
+
+        removeExistingElements();
         determineFileType();
         defineExpandCollapseSVG();
         addExpandCollapseSpans();
+
         let elements = document.querySelectorAll('[id^="LC"]');
         elements.forEach(function (_element, index) {
+
             dataArray.push(
                 {
                     index: parseInt(_element.id.substr(2)),
@@ -35,6 +40,22 @@ function expandCollapse() {
         }
         addIncludes();
     }
+    function removeExistingElements(){
+        document.querySelectorAll('[id^="expand_"]').forEach(function (_element){
+            _element.remove();
+        });
+        document.querySelectorAll('[id^="collapse_"]').forEach(function (_element){
+            _element.remove();
+        });
+        document.querySelectorAll('[id^="eclipse_"]').forEach(function (_element){
+            _element.remove();
+        });
+        document.querySelectorAll('[id^="ellipsis_"]').forEach(function (_element){
+            _element.remove();
+        });
+
+    }
+
     function addExpandCollapseSpans(){
         let elements = document.querySelectorAll('[id^="LC"]');
         elements.forEach(function (_element) {

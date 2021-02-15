@@ -1,8 +1,8 @@
 {
   "name": "Code Expand & Collapse",
-  "description": "Expand & Collapse blocks of code hosted in GitHub ",
+  "description": "Expand & Collapse code blocks for the code which is hosted on any GitHub platform",
   "homepage_url": "https://github.com/achamsanjeeva/ExpandCollapse",
-  "version": "1.0",
+  "version": "0.0.0.2",
   "author": "Acham Sanjeeva Kumar",
   "manifest_version": 2,
   "background": {

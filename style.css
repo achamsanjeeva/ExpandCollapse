@@ -9,6 +9,10 @@
 
 .backgroundHover:hover
 {
+   transform: scale(1.3);
+}
+#sourceCode:hover{
+    background: lightgray;
+    cursor: pointer;
 
-    transform: scale(1.3);
 }
