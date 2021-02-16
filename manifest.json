@@ -1,8 +1,8 @@
 {
-  "name": "Code Expand & Collapse",
-  "description": "Expand & Collapse code blocks for the code which is hosted on any GitHub platform",
+  "name": "Expand & Collapse",
+  "description": "Extension allows the user to Expand & Collapse code sections which is hosted on any GitHub platform",
   "homepage_url": "https://github.com/achamsanjeeva/ExpandCollapse",
-  "version": "0.0.0.2",
+  "version": "1.0.0",
   "author": "Acham Sanjeeva Kumar",
   "manifest_version": 2,
   "background": {
@@ -24,17 +24,6 @@
     "32":  "/images/32x32.png",
     "48":  "/images/48x48.png",
     "128": "/images/128x128.png"
-  },
-  "content_scripts": [
-    {
-      "matches": ["*://*.com/*"],
-      "run_at": "document_end",
-      "css": [
-        "style.css"
-      ]
-    }
- ],
-  "web_accessible_resources": [
-    "images/*.png"
-  ]
+  }
+
 }
