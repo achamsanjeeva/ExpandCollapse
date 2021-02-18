@@ -4,7 +4,7 @@
 Chrome extension enables users to analyse the code hosted in github easily. It identifies code block and add UI elements expand and collapse.
 On clicking icon ![collapse](https://github.com/achamsanjeeva/ExpandCollapse/blob/main/images/collapse.png) code will collapse,on clicking of icon ![expand](https://github.com/achamsanjeeva/ExpandCollapse/blob/main/images/expand.png) code will expand.
 
- ***It supports 8 programming languages :  Java, JavaScript , PHP, C,C++, C# , Swift ,R.
+***It supports 8 programming languages :  Java, JavaScript , PHP, C,C++, C# , Swift ,R.***
 
 # How to use it:
 
